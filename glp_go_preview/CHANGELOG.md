@@ -1,3 +1,10 @@
+## go-preview-20260821_1025 — 2026-08-21
+
+- fix(go): correct README's stale Library/Settings "read-only" claims (#901) (ee08d44)
+- feat(go): verdict-first default-machine status on the Machines page (#901) (5b0f644)
+- feat(go): verdict-first due/soon/ok summary on the Maintenance page (#901) (f8a0ef9)
+- feat(go): stock bars for Beans/Milks on the Library pages (#901) (8b0dd20)
+
 ## go-preview-20260821_0843 — 2026-08-21
 
 - fix(go): restore styled htmx error fragments with a generic class (38d17bf)
