@@ -1,3 +1,8 @@
+## go-preview-20260821_0843 — 2026-08-21
+
+- fix(go): restore styled htmx error fragments with a generic class (38d17bf)
+- feat(go): Verdict header for Shots list + read-only tone for Settings (#901) (532a855)
+
 ## go-preview-20260821_0829 — 2026-08-21
 
 - feat(go): port Instrument design-token system onto templ frontend (#901) (740ae98)
