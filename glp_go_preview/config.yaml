@@ -1,0 +1,59 @@
+name: "GLP Go Preview — Gaggiuino Local Profiler (experimental)"
+# Rewritten automatically by .github/workflows/go-preview-publish.yaml in the
+# main repository on every push to `go-migration`. Home Assistant offers an
+# update when this value changes, so it must be unique per build -- it is
+# NOT the app's own semantic version.
+version: "go-preview-00000000_0000"
+slug: "glp_go_preview"
+description: "EXPERIMENTAL Go-rewrite build of GLP, for early testers. Runs alongside the stable app AND the Node dev channel with its own database. Not for end users."
+url: "https://github.com/mxkissnr/glp-go-preview-app"
+# Same image repository as stable/dev -- only the tag differs. The
+# go-preview tag is built from the `go-migration` branch's go/Dockerfile
+# (native Go, no Node/npm at all) and pinned via `version` above.
+image: "ghcr.io/mxkissnr/gaggiuino-local-profiler/{arch}"
+# Must keep agreeing with go-preview-publish.yaml's build matrix in the main
+# repository (and, transitively, with .github/workflows/go-build.yaml's
+# amd64/arm64/armv7 matrix that proved this in build-only CI first).
+arch:
+  - amd64
+  - armv7
+  - aarch64
+startup: application
+boot: manual
+# The Go backend calls the Core API via the Supervisor proxy for
+# notify.*/person./switch. state (internal/ha/client.go, ported from
+# lib/ha.js) -- same permission the stable/dev apps use for the same reason.
+# hassio_api is deliberately NOT requested: the Go rewrite has not ported
+# lib/mqtt-discovery.js (the only Node code path that needs the Supervisor's
+# own /services/mqtt endpoint), so there is nothing here to use it.
+homeassistant_api: true
+init: false
+ingress: true
+# Ingress is scoped per installed app, so the in-container port can stay
+# 8099 (the Go server's own default, see go/cmd/server/main.go) and only the
+# host-side mapping below has to avoid colliding with stable (8099) and the
+# Node dev channel (8098).
+ingress_port: 8099
+ports:
+  8099/tcp: 8097
+ports_description:
+  8099/tcp: "GLP Go Preview web interface (8097 on the host, so it never collides with the stable app on 8099 or the Node dev channel on 8098)"
+panel_icon: mdi:rocket-launch-outline
+panel_title: "GLP Go"
+# internal/system/options.go reads /data/options.json exactly like Node's
+# lib/data.js loadOptions() -- same keys, same schema, so the Configuration
+# UI works identically to the stable/dev apps. machine_host/switch_entity
+# are omitted, matching the stable app's #662 deprecation (machine #1
+# configures in-app only, via Settings -> Machines).
+options:
+  sync_interval: 5
+  preheat_time: 20
+  enable_orders: false
+  debug_logging: true
+  expose_api_port: true
+schema:
+  sync_interval: int(1,60)
+  preheat_time: int(1,120)?
+  enable_orders: bool?
+  debug_logging: bool?
+  expose_api_port: bool?
