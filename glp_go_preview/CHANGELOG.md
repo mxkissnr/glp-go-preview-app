@@ -1,3 +1,7 @@
+## go-preview-20260821_0640 — 2026-08-21
+
+- fix(go): make every template href/src/hx-* path Ingress-safe (#901) (290dcfe)
+
 ## go-preview-20260821_0624 — 2026-08-21
 
 - fix(go): register GET / so HA Ingress's base URL stops 404ing (38d8aaa)
