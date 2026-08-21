@@ -1,3 +1,7 @@
+## go-preview-20260821_0652 — 2026-08-21
+
+- fix(go): X-Frame-Options DENY -> SAMEORIGIN, blocked HA sidebar panel embed (02affd9)
+
 ## go-preview-20260821_0640 — 2026-08-21
 
 - fix(go): make every template href/src/hx-* path Ingress-safe (#901) (290dcfe)
