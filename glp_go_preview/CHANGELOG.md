@@ -1,3 +1,7 @@
+## go-preview-20260821_0829 — 2026-08-21
+
+- feat(go): port Instrument design-token system onto templ frontend (#901) (740ae98)
+
 ## go-preview-20260821_0752 — 2026-08-21
 
 - fix(go): address code-review findings on Settings/Library/Machines forms (#901) (0bd9aad)
