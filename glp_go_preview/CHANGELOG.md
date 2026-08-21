@@ -1,3 +1,9 @@
+## go-preview-20260821_0752 — 2026-08-21
+
+- fix(go): address code-review findings on Settings/Library/Machines forms (#901) (0bd9aad)
+- feat(go): Create/Edit forms for Library, Machines, and all 5 Settings categories (#901) (35afcbc)
+- fix(go): raise GET /api/token rate limit for genuine Ingress callers (#901) (fda1212)
+
 ## go-preview-20260821_0652 — 2026-08-21
 
 - fix(go): X-Frame-Options DENY -> SAMEORIGIN, blocked HA sidebar panel embed (02affd9)
