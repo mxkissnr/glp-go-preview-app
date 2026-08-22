@@ -1,3 +1,9 @@
+## go-preview-20260822_0749 — 2026-08-22
+
+- feat(go): Shots master-detail view with metrics, verdict, and chart (6bc68bb)
+- fix(go): correct dangling README cross-reference in layout.templ (9a0bb7a)
+- feat(go): fixed left icon sidebar replaces the top-tab menu (e383dd2)
+
 ## go-preview-20260821_1025 — 2026-08-21
 
 - fix(go): correct README's stale Library/Settings "read-only" claims (#901) (ee08d44)
