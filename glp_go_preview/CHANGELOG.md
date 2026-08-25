@@ -1,3 +1,9 @@
+## go-preview-20260825_0738 — 2026-08-25
+
+- docs(go): update README Status/Frontend sections for this round's four packages (#901) (fd9f7d3)
+- feat(go): A/B compare mode, ghost-curve overlay, score-delta chip, comparative grind-advice panel on shot detail (#901) (64a9d0e)
+- feat(go): port calcComparativeGrindAdvice as internal/shots.ComputeComparativeGrindAdvice (#901) (6dfe07b)
+
 ## go-preview-20260825_0721 — 2026-08-25
 
 - feat(go): real SSE live-update for the Orders queue, replacing 10s polling (#901) (15fecf2)
