@@ -1,3 +1,8 @@
+## go-preview-20260825_0713 — 2026-08-25
+
+- feat(go): make boiler/system Settings editable with real field-level validation (#901) (3a96082)
+- feat(go): freshness/firmware/ordered-by badges on the Shots list (#901) (fdacd83)
+
 ## go-preview-20260825_0700 — 2026-08-25
 
 - feat(go): full Edit UI for Library and Machines pages (#901) (dbaa06f)
