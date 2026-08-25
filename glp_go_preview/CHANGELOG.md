@@ -1,3 +1,7 @@
+## go-preview-20260825_0721 — 2026-08-25
+
+- feat(go): real SSE live-update for the Orders queue, replacing 10s polling (#901) (15fecf2)
+
 ## go-preview-20260825_0713 — 2026-08-25
 
 - feat(go): make boiler/system Settings editable with real field-level validation (#901) (3a96082)
