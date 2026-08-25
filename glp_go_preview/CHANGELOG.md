@@ -1,3 +1,8 @@
+## go-preview-20260825_0700 — 2026-08-25
+
+- feat(go): full Edit UI for Library and Machines pages (#901) (dbaa06f)
+- refactor(go): extract library/machine PUT handlers into exported update.go service functions (#901) (54822b9)
+
 ## go-preview-20260822_0749 — 2026-08-22
 
 - feat(go): Shots master-detail view with metrics, verdict, and chart (6bc68bb)
