@@ -1,3 +1,9 @@
+## go-preview-20260825_1111 — 2026-08-25
+
+- fix(go): deterministic tiebreak for comparative grind-advice bucket selection (#901) (3b0a488)
+- fix(go): wire orders-update SSE publish onto the REST API's Service instance too (#901) (6d8de01)
+- fix(go): reject null in boiler settings numeric fields (#901) (e0c06df)
+
 ## go-preview-20260825_0738 — 2026-08-25
 
 - docs(go): update README Status/Frontend sections for this round's four packages (#901) (fd9f7d3)
