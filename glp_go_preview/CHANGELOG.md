@@ -1,3 +1,7 @@
+## go-preview-20260902_0636 — 2026-09-02
+
+- feat(go): port BREW_AUTO auto-stop, live idle stats + steam/flush states, milk restock (#901) (d9eb10f)
+
 ## go-preview-20260825_1111 — 2026-08-25
 
 - fix(go): deterministic tiebreak for comparative grind-advice bucket selection (#901) (3b0a488)
