@@ -1,3 +1,9 @@
+## go-preview-20260902_1154 — 2026-09-02
+
+- refactor(go): extract buildApp + add an HA-ingress smoke test (#901) (af85e68)
+- test(go): Node-vs-Go route-parity check, wired into CI (#901) (1f92bdd)
+- test(go): extend Phase-2 contract-test coverage (#901) (2b2da64)
+
 ## go-preview-20260902_1116 — 2026-09-02
 
 - feat(go): port the debug routes (#901) (2cd65b0)
