@@ -1,3 +1,7 @@
+## go-preview-20260902_1249 — 2026-09-02
+
+- fix(go): accept URL-safe HA ingress tokens in the path-prefix verdict (#901) (ff23165)
+
 ## go-preview-20260902_1230 — 2026-09-02
 
 - feat(go): add an HA-ingress self-diagnostic to internal/debug (#901) (5d4c5d6)
