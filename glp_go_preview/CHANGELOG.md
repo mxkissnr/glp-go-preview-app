@@ -1,3 +1,7 @@
+## go-preview-20260902_1230 — 2026-09-02
+
+- feat(go): add an HA-ingress self-diagnostic to internal/debug (#901) (5d4c5d6)
+
 ## go-preview-20260902_1154 — 2026-09-02
 
 - refactor(go): extract buildApp + add an HA-ingress smoke test (#901) (af85e68)
