@@ -1,3 +1,8 @@
+## go-preview-20260902_0746 — 2026-09-02
+
+- feat(go): port the achievements ("stamp card") domain (#901) (4a20791)
+- feat(go): port geocodeBean + the trivial system/machine-control routes (#901) (3757898)
+
 ## go-preview-20260902_0658 — 2026-09-02
 
 - build(go): add frontend build stage to the Docker image and Makefile (#901) (01c5bcf)
