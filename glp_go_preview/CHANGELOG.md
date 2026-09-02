@@ -1,3 +1,8 @@
+## go-preview-20260902_1116 — 2026-09-02
+
+- feat(go): port the debug routes (#901) (2cd65b0)
+- feat(go): port the share-card PNG renderer (#901) (2392282)
+
 ## go-preview-20260902_0819 — 2026-09-02
 
 - feat(go): port the MQTT live-data transport (#901) (96d229b)
