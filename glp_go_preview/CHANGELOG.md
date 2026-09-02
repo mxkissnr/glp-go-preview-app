@@ -1,3 +1,8 @@
+## go-preview-20260902_0658 — 2026-09-02
+
+- build(go): add frontend build stage to the Docker image and Makefile (#901) (01c5bcf)
+- feat(go): serve the Vite SPA from the binary, move templ pages under /ui/ (#901) (721491a)
+
 ## go-preview-20260902_0636 — 2026-09-02
 
 - feat(go): port BREW_AUTO auto-stop, live idle stats + steam/flush states, milk restock (#901) (d9eb10f)
