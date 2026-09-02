@@ -1,3 +1,12 @@
+## go-preview-20260902_1909 — 2026-09-02
+
+- feat(go): persistent GaggiMate live client, stop the per-tick WS hammer (#952) (29793ba)
+- feat(go): port the automatic shot-sync triggers (#953) (92c1c2e)
+- fix(go): coalesce buffered live-snapshot SSE frames on a slow consumer (#901) (6052714)
+- perf(go): fold grinder wear in one shot scan for GET /api/library (#951) (240356a)
+- perf(go): pool warm resvg contexts for the share card (#951) (58bd8c6)
+- perf(go): keep /shots.json datapoints raw + goccy encoder (#951) (54e7a01)
+
 ## go-preview-20260902_1249 — 2026-09-02
 
 - fix(go): accept URL-safe HA ingress tokens in the path-prefix verdict (#901) (ff23165)
