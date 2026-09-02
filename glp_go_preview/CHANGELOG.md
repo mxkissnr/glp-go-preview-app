@@ -1,3 +1,8 @@
+## go-preview-20260902_0819 — 2026-09-02
+
+- feat(go): port the MQTT live-data transport (#901) (96d229b)
+- feat(go): port the bean-import domain (#901) (f71e0cd)
+
 ## go-preview-20260902_0746 — 2026-09-02
 
 - feat(go): port the achievements ("stamp card") domain (#901) (4a20791)
