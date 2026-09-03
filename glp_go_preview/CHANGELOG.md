@@ -1,3 +1,7 @@
+## go-preview-20260903_1101 — 2026-09-03
+
+- feat: keyset-paginated GET /api/shots + lazy curve loading (#957) (#962) (e16c5cc)
+
 ## go-preview-20260903_0804 — 2026-09-03
 
 - perf(go): gate the achievements full-context scan behind a change fingerprint (#956) (b2bc4bb)

@@ -3,7 +3,7 @@ name: "GLP Go Preview — Gaggiuino Local Profiler (experimental)"
 # main repository on every push to `go-migration`. Home Assistant offers an
 # update when this value changes, so it must be unique per build -- it is
 # NOT the app's own semantic version.
-version: "go-preview-20260903_0804"
+version: "go-preview-20260903_1101"
 slug: "glp_go_preview"
 description: "EXPERIMENTAL Go-rewrite build of GLP, for early testers. Runs alongside the stable app AND the Node dev channel with its own database. Not for end users."
 url: "https://github.com/mxkissnr/glp-go-preview-app"
