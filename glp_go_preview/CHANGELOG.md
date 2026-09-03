@@ -1,3 +1,7 @@
+## go-preview-20260903_1919 — 2026-09-03
+
+- fix(go): report shots present in the streamed zip restore preview (#968) (d6c5b08)
+
 ## go-preview-20260903_1822 — 2026-09-03
 
 - feat: progress bars for backup/restore and dev-channel DB transfers (#960) (#965) (e3e6a67)
