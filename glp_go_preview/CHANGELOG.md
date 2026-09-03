@@ -1,3 +1,7 @@
+## go-preview-20260903_1215 — 2026-09-03
+
+- perf(go): streaming + atomic backup import, transactional structured restore (#959) (#963) (b313997)
+
 ## go-preview-20260903_1126 — 2026-09-03
 
 - perf(go): shrink warm RSS — resvg pool 3->2 + GOMEMLIMIT (#956) (23bee3b)
