@@ -1,3 +1,8 @@
+## go-preview-20260903_0804 — 2026-09-03
+
+- perf(go): gate the achievements full-context scan behind a change fingerprint (#956) (b2bc4bb)
+- perf(go): concurrent WAL reader pool for SQLite, stop head-of-line blocking (#956) (e395706)
+
 ## go-preview-20260903_0652 — 2026-09-03
 
 - fix(go): match null-in-series scoring to the map path + keep resvg slots warm on render error (#951) (cf5c31e)
