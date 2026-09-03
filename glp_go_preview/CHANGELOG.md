@@ -1,3 +1,7 @@
+## go-preview-20260903_1822 — 2026-09-03
+
+- feat: progress bars for backup/restore and dev-channel DB transfers (#960) (#965) (e3e6a67)
+
 ## go-preview-20260903_1725 — 2026-09-03
 
 - feat(go): optimize stored entity images — downscale, strip EXIF, thumbnails (#961) (#964) (2ac18ec)
