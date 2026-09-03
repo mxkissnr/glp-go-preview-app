@@ -1,3 +1,7 @@
+## go-preview-20260903_1126 — 2026-09-03
+
+- perf(go): shrink warm RSS — resvg pool 3->2 + GOMEMLIMIT (#956) (23bee3b)
+
 ## go-preview-20260903_1101 — 2026-09-03
 
 - feat: keyset-paginated GET /api/shots + lazy curve loading (#957) (#962) (e16c5cc)
