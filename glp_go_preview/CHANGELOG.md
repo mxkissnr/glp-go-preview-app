@@ -1,3 +1,7 @@
+## go-preview-20260903_1725 — 2026-09-03
+
+- feat(go): optimize stored entity images — downscale, strip EXIF, thumbnails (#961) (#964) (2ac18ec)
+
 ## go-preview-20260903_1215 — 2026-09-03
 
 - perf(go): streaming + atomic backup import, transactional structured restore (#959) (#963) (b313997)
