@@ -1,3 +1,7 @@
+## go-preview-20260903_0652 — 2026-09-03
+
+- fix(go): match null-in-series scoring to the map path + keep resvg slots warm on render error (#951) (cf5c31e)
+
 ## go-preview-20260902_1909 — 2026-09-02
 
 - feat(go): persistent GaggiMate live client, stop the per-tick WS hammer (#952) (29793ba)
