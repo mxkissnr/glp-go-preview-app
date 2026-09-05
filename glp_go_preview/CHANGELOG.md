@@ -1,3 +1,13 @@
+## go-preview-20260905_1458 — 2026-09-05
+
+- Revert "fix: record sync error on unreachable GaggiMate history + float-tolerant wl parsing" (51343bc)
+- fix: record sync error on unreachable GaggiMate history + float-tolerant wl parsing (76afac3)
+- style: gofmt four files flagged by CI (553cfaf)
+- Merge branch 'mxkissnr:go-migration' into go-migration (9cff22a)
+- fix(go/system): gate GaggiMate wl field on has_water_sensor (e116bbe)
+- feat(go/machines): add has_water_sensor flag to machine model (5afc8e7)
+- feat(go/machines): add GaggiMate binary shot-history sync (0fd094d)
+
 ## go-preview-20260905_1401 — 2026-09-05
 
 - fix(go): scale card-render pool with GOMAXPROCS instead of fixed size 2 (#982) (01777ab)
