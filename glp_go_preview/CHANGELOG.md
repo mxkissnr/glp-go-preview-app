@@ -1,3 +1,7 @@
+## go-preview-20260905_1401 — 2026-09-05
+
+- fix(go): scale card-render pool with GOMAXPROCS instead of fixed size 2 (#982) (01777ab)
+
 ## go-preview-20260905_0852 — 2026-09-05
 
 - perf(sidebar): debounce shot search input (#975) (8f98c63)
