@@ -1,3 +1,7 @@
+## go-preview-20260905_0833 — 2026-09-05
+
+- perf: lazy-build collapsed month groups + index sidebar search by id (#969) (#970) (#972) (51ab6a3)
+
 ## go-preview-20260903_1919 — 2026-09-03
 
 - fix(go): report shots present in the streamed zip restore preview (#968) (d6c5b08)
