@@ -1,3 +1,7 @@
+## go-preview-20260905_1845 — 2026-09-05
+
+- feat(go): surface descale operation mode as isDescaling in MachineStatus/SSE (#984) (a2f5346)
+
 ## go-preview-20260905_1458 — 2026-09-05
 
 - Revert "fix: record sync error on unreachable GaggiMate history + float-tolerant wl parsing" (51343bc)
