@@ -1,3 +1,7 @@
+## go-preview-20260905_0852 — 2026-09-05
+
+- perf(sidebar): debounce shot search input (#975) (8f98c63)
+
 ## go-preview-20260905_0837 — 2026-09-05
 
 - ci(go-preview): rebuild image on any non-doc push to go-migration (#974) (973367d)
