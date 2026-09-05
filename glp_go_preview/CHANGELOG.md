@@ -1,3 +1,7 @@
+## go-preview-20260905_0837 — 2026-09-05
+
+- ci(go-preview): rebuild image on any non-doc push to go-migration (#974) (973367d)
+
 ## go-preview-20260905_0833 — 2026-09-05
 
 - perf: lazy-build collapsed month groups + index sidebar search by id (#969) (#970) (#972) (51ab6a3)
