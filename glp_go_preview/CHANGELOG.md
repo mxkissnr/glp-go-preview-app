@@ -1,3 +1,7 @@
+## go-preview-20260906_0841 — 2026-09-06
+
+- fix(go): SSRF hardening round — reconnect revalidation, DNS-rebinding pin, MQTT guard, registry-facade doc (#990) (f5e8599)
+
 ## go-preview-20260905_1845 — 2026-09-05
 
 - feat(go): surface descale operation mode as isDescaling in MachineStatus/SSE (#984) (a2f5346)
