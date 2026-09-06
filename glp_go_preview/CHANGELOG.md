@@ -1,3 +1,7 @@
+## go-preview-20260906_0924 — 2026-09-06
+
+- fix(go): GaggiMate parser hardening — index.bin cap, sampleSize floor, panic recovery (#994) (64b7285)
+
 ## go-preview-20260906_0841 — 2026-09-06
 
 - fix(go): SSRF hardening round — reconnect revalidation, DNS-rebinding pin, MQTT guard, registry-facade doc (#990) (f5e8599)
