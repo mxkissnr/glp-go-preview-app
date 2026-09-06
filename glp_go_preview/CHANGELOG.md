@@ -1,3 +1,7 @@
+## go-preview-20260906_1914 — 2026-09-06
+
+- fix(go): security audit #977 round 3 — DB guard, toolchain pin, Docker digests (#1000) (3fb92a6)
+
 ## go-preview-20260906_0924 — 2026-09-06
 
 - fix(go): GaggiMate parser hardening — index.bin cap, sampleSize floor, panic recovery (#994) (64b7285)
