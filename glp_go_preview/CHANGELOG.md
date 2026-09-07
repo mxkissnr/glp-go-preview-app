@@ -1,3 +1,7 @@
+## go-preview-20260907_2040 — 2026-09-07
+
+- Merge pull request #1025 from mxkissnr/fix/1024-worldmap-light-theme (e7a79db)
+
 ## go-preview-20260907_1858 — 2026-09-07
 
 - Merge pull request #1023 from mxkissnr/fix/1021-accent-ink-contrast-audit (4cf4a1a)
