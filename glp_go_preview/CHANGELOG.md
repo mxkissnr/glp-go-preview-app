@@ -1,3 +1,7 @@
+## go-preview-20260907_1503 — 2026-09-07
+
+- fix: theme toggle active state + add Auto (system) option (#1020) (d3162a6)
+
 ## go-preview-20260907_1358 — 2026-09-07
 
 - fix: detect mid-session SSE staleness, not just first-connect failure (#1017) (f1aa5fb)
