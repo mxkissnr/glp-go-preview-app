@@ -1,3 +1,7 @@
+## go-preview-20260907_1046 — 2026-09-07
+
+- fix: resolve 5 pre-existing CodeQL alerts (#94, #95, #96, #98, #100) (4757b31)
+
 ## go-preview-20260907_0531 — 2026-09-07
 
 - Feature/gaggimate profile editor (#996) (d05f594)
