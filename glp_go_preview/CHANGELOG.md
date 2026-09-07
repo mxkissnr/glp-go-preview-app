@@ -1,3 +1,8 @@
+## go-preview-20260907_0531 — 2026-09-07
+
+- Feature/gaggimate profile editor (#996) (d05f594)
+- docs(go): preserve SQLite driver spike decision doc (#958) (#1002) (d4d51cc)
+
 ## go-preview-20260906_1946 — 2026-09-06
 
 - Security audit #977 round 3 follow-up: govulncheck gate (#998) + dedicated rate limits (#999) (#1001) (2f813cb)
