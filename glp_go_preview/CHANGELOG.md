@@ -1,3 +1,7 @@
+## go-preview-20260907_1358 — 2026-09-07
+
+- fix: detect mid-session SSE staleness, not just first-connect failure (#1017) (f1aa5fb)
+
 ## go-preview-20260907_1046 — 2026-09-07
 
 - fix: resolve 5 pre-existing CodeQL alerts (#94, #95, #96, #98, #100) (4757b31)
